@@ -1,0 +1,203 @@
+# ============================================================
+# EAP - Agentic Excel Report Automation Platform
+# Repository-level Git ignore rules
+# ============================================================
+
+
+# ============================================================
+# PYTHON BYTECODE / CACHE
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+
+# ============================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================
+
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.pdm-python
+.pixi
+
+
+# ============================================================
+# BUILD / DISTRIBUTION
+# ============================================================
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+
+# ============================================================
+# TEST / COVERAGE OUTPUT
+# ============================================================
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+cover/
+
+
+# ============================================================
+# LOGS / LOCAL DATABASES
+# ============================================================
+
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+db.sqlite3
+db.sqlite3-journal
+
+local_settings.py
+
+
+# ============================================================
+# FRAMEWORK / TOOL GENERATED FILES
+# ============================================================
+
+instance/
+.webassets-cache
+.scrapy
+celerybeat-schedule
+celerybeat.pid
+
+mnesia/
+rabbitmq/
+rabbitmq-data/
+activemq-data/
+
+*.rdb
+*.aof
+*.pid
+
+*.sage.py
+
+
+# ============================================================
+# DJANGO / SPHINX / DOCUMENTATION BUILD OUTPUT
+# ============================================================
+
+docs/_build/
+/site
+
+# PyBuilder
+.pybuilder/
+target/
+
+
+# ============================================================
+# JUPYTER / IDE / EDITOR
+# ============================================================
+
+.spyderproject
+.spyproject
+
+.ropeproject
+
+.idea/
+.vscode/
+
+# VS Code temporary execution file
+tempCodeRunnerFile.py
+
+
+# ============================================================
+# PYTHON TOOLING
+# ============================================================
+
+.pdm-build/
+
+__pypackages__/
+
+.abstra/
+
+.pypirc
+
+marimo/_static/
+marimo/_lsp/
+__marino__/
+
+.streamlit/secrets.toml
+
+
+# ============================================================
+# ENVIRONMENT / SECRETS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# OS GENERATED FILES
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# EAP PRIVATE / LOCAL PROJECT MATERIAL
+# ============================================================
+#
+# These files remain on the developer's computer.
+# They must NOT be committed to the public repository.
+#
+
+Project_docs/
+
+adit.md
+
+Memory.md
+
+V1_Review_for_model.md
+
+Excel_Report_Automation_Manual_with_Screenshots.docx
+
+Excel_Report_Automation_Project_Blueprint.pdf
